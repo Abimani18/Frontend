@@ -1,0 +1,40 @@
+/* Mobiletrusted.css */
+
+.mobile-client-slider {
+  margin: 20px auto; /* Center the slider horizontally */
+  text-align: center;
+  overflow: hidden; /* Ensure images don't overflow outside the slider */
+}
+
+.mobile-client-slider h2 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.mobile-client-slider .slick-slide {
+  padding: 0 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-client-slider img {
+  width: 150px; /* Set your desired fixed width */
+  height: 100px; /* Set your desired fixed height */
+
+  border-radius: 5px;
+}
+
+/* Show/hide based on mobile view */
+.mobile-client-slider.visible {
+  display: block;
+}
+
+.mobile-client-slider.hidden {
+  display: none;
+}
+
+/* Adjust the slider width */
+.slick-list {
+  width: 80%;
+  margin: 0 auto;
+}

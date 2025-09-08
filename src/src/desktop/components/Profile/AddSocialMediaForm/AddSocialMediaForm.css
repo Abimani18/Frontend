@@ -1,0 +1,97 @@
+.addsmdetails-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addsmdetails-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  animation: popup 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes popup {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.addsmdetails-input {
+  width: calc(100% - 10px);
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.addsmdetails-invalid-link {
+  border-color: #f44336;
+}
+
+.addsmdetails-invalid-link-message {
+  margin-top: -5px;
+  font-size: 12px;
+  color: #f44336;
+}
+
+.addsmdetails-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.addsmdetails-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addsmdetails-button:hover {
+  background-color: #f0f0f0;
+}
+
+.addsmdetails-save-button,
+.addsmdetails-cancel-button {
+  color: white;
+  margin-right: 10px;
+}
+
+.addsmdetails-save-button {
+  background-color: #8c36d8;
+}
+
+.addsmdetails-cancel-button {
+  background-color: #f44336;
+}
+
+.addsmdetails-button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+.addsmdetails-button:disabled:hover {
+  background-color: #d3d3d3;
+}
+
+.addsmdetails-input:focus {
+  border-color: #8c36d8;
+  outline: none;
+}

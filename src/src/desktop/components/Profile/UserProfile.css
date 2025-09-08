@@ -1,0 +1,317 @@
+/* Main container styles */
+.user-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #fff;
+}
+
+/* Profile picture container */
+.profile-picture-container {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Profile picture styles */
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 4px solid #fff;
+}
+
+/* Edit profile icon styles */
+.edit-profile-label {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.edit-icon {
+  color: #8c36d8;
+}
+
+/* File input styles */
+.profile-file-input {
+  display: none;
+}
+
+/* User details container */
+.user-details-container {
+  width: 100%;
+}
+
+/* Profile form styles */
+.profileform {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form group styles */
+.profile-form-group {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* Field name styles */
+.profile-field-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+
+/* Profile file input container */
+.profile-profile-file-input-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Resume label styles */
+.profile-resume-label {
+  padding: 12px;
+  font-size: 14px;
+  background: linear-gradient(45deg, #8c36d8, #5c1a82);
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Selected file styles */
+.profileresume-selected-file {
+  padding: 12px;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Resume link styles */
+.profile-resume-link {
+  display: block;
+  margin-top: 20px;
+  color: #8c36d8;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.profile-resume-link:hover {
+  text-decoration: underline;
+}
+
+/* Education and work experience sections */
+.profile-education-section,
+.profile-workexperience-section,
+.profile-social-media-section {
+  margin-top: 30px;
+  text-align: left;
+}
+
+/* Education and experience details styles */
+.profile-education-details,
+.profile-experience-details {
+  margin-bottom: 30px;
+}
+
+/* Button styles */
+.add-profile-education-button,
+
+.save-profile-education-button,
+.add-profile-experience-button,
+.add-social-media-button,
+.save-profile-experience-button {
+  background: linear-gradient(45deg, #8c36d8, #5c1a82);
+  color: #fff;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Hover styles for buttons */
+.profile-resume-label:hover,
+.add-social-media-button:hover,
+.add-profile-education-button:hover,
+.save-profile-education-button:hover,
+.add-profile-experience-button:hover,
+
+.save-profile-experience-button:hover {
+  background: linear-gradient(-45deg, #8c36d8, #5c1a82);
+}
+
+.add-icon {
+  vertical-align: middle; 
+  margin-right: 5px;
+  font-size: 20px; 
+  color: #fff; 
+}
+
+
+/* Checkbox group styles */
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+/* Checkbox container styles */
+.profile-checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+/* Checkbox label styles */
+.profile-checkbox-label {
+  margin-left: 6px;
+}
+
+/* Save profile button styles */
+.save-profile-button {
+  background: linear-gradient(45deg, #8c36d8, #5c1a82);
+  color: #fff;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+/* Hover styles for save profile button */
+.save-profile-button:hover {
+  background: linear-gradient(-45deg, #8c36d8, #5c1a82);
+}
+
+/* Education and Work Experience Details Container */
+.edulist-profile-education-details,
+.workexlist-profile-experience-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.edulist-profile-details-group,
+.workexlist-profile-details-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.edulist-profile-detail-label,
+.workexlist-profile-detail-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.edulist-profile-detail-value,
+.workexlist-profile-detail-value {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.edulist-delete-profile-education-button,
+.workexlist-delete-profile-experience-button {
+  background: linear-gradient(45deg, #8c36d8, #5c1a82);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: max-content;
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+
+.edulist-delete-profile-education-button:hover,
+.workexlist-delete-profile-experience-button:hover {
+  background: linear-gradient(-45deg, #8c36d8, #5c1a82);
+}
+
+
+/* Styling for the separation line for each entry */
+.entryseparation-line {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.entryseparation-line::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #dddddd6b;
+}
+
+.entryseparation-line::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, #8c36d86f, #5c1a8298);
+  z-index: 2;
+  transition: transform 0.3s ease-out;
+  transform: scaleX(0);
+}
+
+.entryseparation-line:hover::after {
+  transform: scaleX(1);
+}
+
+
+/* Social Media Link Container */
+.profile-social-media-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.profile-social-media-platform {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #555;
+}
+
+.profile-social-media-link-url {
+  flex-grow: 1;
+  color: #888;
+}
+
+.delete-social-media-button {
+  background: linear-gradient(45deg, #8c36d8, #5c1a82);
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.delete-social-media-button:hover {
+  filter: brightness(0.9);
+}

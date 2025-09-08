@@ -1,0 +1,63 @@
+.efficiency-section {
+  background: #f3f6fb;
+}
+
+.efficiency-card {
+  border-radius: 16px;
+  padding: 30px 20px;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  border: none;
+    clip-path: polygon(74% 0, 100% 23%, 100% 60%, 100% 100%, 25% 100%, 0 79%, 0 0);
+
+  /* clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0 90%); */
+  transition: transform 0.3s ease;
+  color: #fff; /* default white text */
+}
+
+.efficiency-card:hover {
+  transform: translateY(-8px);
+}
+
+.card-1 {
+    
+  background: linear-gradient(135deg, #00c6ff, #0072ff); /* Purple → Blue */
+}
+
+.card-2 {
+  background: linear-gradient(135deg, #00c6ff, #0072ff); /* Orange → Pink */
+}
+
+.card-3 {
+  background: linear-gradient(135deg, #00c6ff, #0072ff); /* Cyan → Blue */
+}
+
+.efficiency-card h2 {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.efficiency-card h5 {
+  /* font-weight: bold; */
+  margin-bottom: 10px;
+}
+
+.efficiency-card p {
+  font-size: 14px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: end;
+}
+
+.card-icon {
+  font-size: 48px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+
+

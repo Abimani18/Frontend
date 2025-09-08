@@ -1,0 +1,16 @@
+.card{
+  position: relative;
+  width: 250px;
+  height: 200px;
+  border-radius: 20px !important;
+}
+.cards{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    background-color: white !important;
+    top: 0;
+    border-radius: 0px 0px 20px 0px;
+    left: 41%;
+}
+

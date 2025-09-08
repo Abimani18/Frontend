@@ -1,0 +1,36 @@
+/* privacy-policy.css */
+
+.privacy-policy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .privacy-policy-heading {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .privacy-policy-subheading {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .privacy-policy-paragraph {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .privacy-policy-list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .privacy-policy-list-item {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Add more styles for other sections as needed */
+  

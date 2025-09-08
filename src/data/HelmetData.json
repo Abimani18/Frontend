@@ -1,0 +1,60 @@
+{
+    "/": {
+      "title": "Home Page",
+      "description": "Welcome to our homepage!"
+    },
+    "/careers/job-openings": {
+      "title": "Job Openings",
+      "description": "Explore our job openings."
+    },
+    "/test": {
+      "title": "Test Page",
+      "description": "Test page for MCQ component."
+    },
+    "/careers/internship": {
+      "title": "Internship Opportunities",
+      "description": "Find internship opportunities with us."
+    },
+    "/login": {
+      "title": "Login",
+      "description": "Log in to your account."
+    },
+    "/register": {
+      "title": "Register",
+      "description": "Create a new account."
+    },
+    "/forgot-password": {
+      "title": "Forgot Password",
+      "description": "Reset your password here."
+    },
+    "/about": {
+      "title": "About Us",
+      "description": "Learn more about us."
+    },
+    "/contact": {
+      "title": "Contact Us",
+      "description": "Get in touch with us."
+    },
+    "/services": {
+      "title": "Services",
+      "description": "Our services offered."
+    },
+    "/get-started": {
+      "title": "Get Started",
+      "description": "Get started with our services."
+    },
+    "/profile": {
+      "title": "Profile",
+      "description": "View your profile."
+    },
+    "/legal": {
+      "title": "Legal Information",
+      "description": "Legal information and policies."
+    },
+    "/careers/job-openings/jobdescription/:routeID": {
+      "title": "Job Description",
+      "description": "Details for job "
+    }
+    
+  }
+  

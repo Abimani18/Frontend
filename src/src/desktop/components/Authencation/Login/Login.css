@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.card-signin {
+
+  width: 29%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: -10px 10px 26px rgba(0, 0, 0, 0.1),
+    10px 10px 26px rgba(0, 0, 0, 0.1), 0 10px 26px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border: 1px solid rgb(238, 238, 238);
+  margin: 100px auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-signin {
+  width: 8%;
+  height: 8%;
+  margin-right: 10px;
+}
+
+.sameline-signin {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.title-signin {
+  margin-top: 5%;
+  font-size: 15px;
+  font-weight: 200;
+  color: #2c2c2c;
+}
+
+.continue-signin {
+  font-size: 90%;
+  color: #6e6e6e;
+  margin-top: -5px;
+  margin-left: 3px;
+}
+.off-reg {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.line-code-Reg {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.or-code-Reg {
+  padding: 0 10px;
+}
+
+.input-box-signin {
+  width: 93%;
+  padding: 10px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 5px;
+}
+
+.button-signin {
+  background-color: #9a46ce;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-top: 16px;
+}
+.input-signin {
+  margin-top: -16px;
+  gap: 3px;
+  position: relative;
+}
+.no-acc-signin {
+  display: flex;
+  justify-content: space-between;
+}
+.oneline-signin {
+  display: flex;
+  gap: 3px;
+  cursor: pointer;
+}
+.help-signin {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.vertical-signin {
+  writing-mode: vertical-rl;
+  color: white;
+  background-color: #9a46ce;
+  transform: rotate(180deg);
+  padding: 10px 10px 10px 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  border-radius: 0px 10px 10px 0px;
+  position: absolute;
+  margin-left: -68px;
+  margin-top: 1%;
+}
+.blue-signin {
+  color: #6846ce;
+}
+.social-icons-signin {
+  margin-top: 20px;
+  margin-left: 3px;
+  border: 1px solid rgb(231, 231, 231);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+ .img-logo-signin {
+  width: 13%;
+  height: 13%;
+  padding: 2%;
+}

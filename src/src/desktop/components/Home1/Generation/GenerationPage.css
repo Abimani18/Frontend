@@ -1,0 +1,14 @@
+.glass-card {
+  background: rgba(255, 255, 255, 0.15) !important; /* Transparent white */
+  backdrop-filter: blur(10px) !important; /* Blur effect */
+  -webkit-backdrop-filter: blur(10px) !important; /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3) !important; /* Subtle border */
+}
+.list-unstyled li:hover{
+    color: #0A58CA;
+    cursor: pointer !important;
+}
+.active{
+    color: #0A58CA;
+}
+

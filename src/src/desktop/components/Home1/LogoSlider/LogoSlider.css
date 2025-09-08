@@ -1,0 +1,44 @@
+.logo-slider-wrapper {
+  background: #f8f9fa; /* light background */
+  padding: 20px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo-slider {
+  display: flex;
+  align-items: center;
+}
+
+.logo-track {
+  display: flex;
+  width: calc(200%); /* doubled for seamless loop */
+  animation: scroll 25s linear infinite;
+}
+
+.logo-item {
+  flex: 0 0 auto;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-item img {
+  max-height: 70px;
+  object-fit: contain;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.logo-item img:hover {
+  opacity: 1;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

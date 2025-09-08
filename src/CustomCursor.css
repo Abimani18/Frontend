@@ -1,0 +1,19 @@
+/* CustomCursor.css */
+
+.custom-cursor {
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff; /* White border */
+  border-radius: 50%; /* Circle shape */
+  pointer-events: none; /* Cursor should not interfere with events */
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference; /* Blend mode for visibility */
+  z-index: 9999; /* Ensure it's above other elements */
+  transition: all 0.15s ease; /* Smooth transition */
+
+  /* Add any additional styling you prefer */
+}

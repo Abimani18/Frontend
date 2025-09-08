@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.card-Reg {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: -10px 10px 26px rgba(0, 0, 0, 0.1),
+    10px 10px 26px rgba(0, 0, 0, 0.1), 0 10px 26px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border: 1px solid rgb(238, 238, 238);
+  font-weight: 100;
+  font-style: normal;
+  margin: 30px auto;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.title-Reg {
+  font-size: 14px;
+  font-weight: 200;
+  color: #2c2c2c;
+}
+
+
+.continue-Reg {
+  font-size: 90%;
+  color: #6e6e6e;
+  margin-top: -16px;
+  margin-left: 3px;
+}
+
+
+.social-icons-Reg {
+  margin-top: 20px;
+  margin-left: 3px;
+  height: 40px;
+  width: 93%;
+  border: 1px solid rgb(231, 231, 231);
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.social-icons-Reg .img-logo-Reg {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+.input-Reg {
+  margin-top: -16px;
+  gap: 3px;
+  position: relative;
+}
+.input-Regis {
+  width: 83%;
+  padding: 10px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 5px;
+}
+
+.button-Reg {
+  background-color: #9a46ce;
+
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.continue-button {
+  margin-top: 16px;
+}
+
+.vertical-Reg {
+  writing-mode: vertical-rl;
+  color: white;
+  background-color: #9a46ce;
+  transform: rotate(180deg);
+  padding: 10px 10px 10px 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  border-radius: 0px 10px 10px 0px;
+  position: absolute;
+  margin-left: -64px;
+}
+
+.off-reg {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.line-code-Reg {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.or-code-Reg {
+  padding: 0 10px;
+}
+
+.input-box-Reg {
+  width: 93%;
+  padding: 10px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 5px;
+}
+
+.password-toggle-Reg {
+  position: absolute; 
+  top: 50%; 
+  right: 10px;
+  transform: translateY(-50%); 
+  background: transparent; 
+  border: none;
+  cursor: pointer;
+}
+
+.password-toggle-Reg:focus {
+  outline: none;
+}
+
+.password-toggle-Reg .svg-reg {
+  color: #747176;
+}
+.fl-reg {
+  display: flex;
+  gap: 8px;
+}

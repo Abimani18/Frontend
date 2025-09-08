@@ -1,0 +1,136 @@
+.career-suggestion-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  padding: 20px;
+  width: 30%; 
+}
+
+
+.career-suggestion-jobcard-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.career-suggestion-jobcard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  width: 100%; 
+}
+
+.career-suggestion-careerCard {
+  position: relative;
+  background: #f9f9f9;
+  min-width: 350px;
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 40px);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  overflow: hidden;
+}
+
+.career-suggestion-careerCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(rgb(240, 240, 255), rgba(240, 240, 255)),
+    linear-gradient(
+      86.97deg,
+      rgb(248, 203, 164) -0.67%,
+      rgb(153, 245, 196) 24.91%,
+      rgb(132, 191, 246) 48.82%,
+      rgb(177, 155, 249) 72.18%,
+      rgb(251, 116, 186) 88.31%
+    ),
+    rgb(240, 240, 255);
+}
+
+.career-suggestion-careerCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.career-suggestion-type-container,
+.career-suggestion-location-container,
+.career-suggestion-aboutjob-container {
+  width: 100%;
+  text-align: left;
+}
+
+.career-suggestion-aboutjob-container p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.career-suggestion-mode-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #8c36d8;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.career-suggestion-careerCard button {
+  margin-top: auto;
+  margin-bottom: 10px;
+  width: auto;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  padding: 12px 20px;
+  background: linear-gradient(45deg, #8c36d8, #5c1a82);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top:
+  20px;
+}
+
+.career-suggestion-careerCard button:hover {
+  background-color: #6a2472;
+}
+
+.career-suggestion-location-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.career-suggestion-location-container p {
+  margin-left: 10px;
+}
+
+.career-suggestion-aboutjob-container {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.career-suggestion-aboutjob-container p {
+  font-size: 12px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0;
+}

@@ -1,0 +1,25 @@
+.jdpage-layout {
+  display: flex;
+}
+
+.jd-master {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  max-height: calc(100vh - 100px);
+}
+
+.suggestion-card-master {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  max-height: calc(100vh - 100px);
+}
+.career-suggestion-heading {
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  margin: 10px; 
+  text-align: center;
+}

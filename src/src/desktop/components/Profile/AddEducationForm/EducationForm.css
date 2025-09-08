@@ -1,0 +1,88 @@
+/* EducationForm.css */
+
+.eduadding-education-form-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.eduadding-education-form-container {
+  background: #fff;
+  padding: 20px;
+  max-height: 80%; 
+  overflow-y: auto; 
+  width: 70%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: popup 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes popup {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.eduadding-profile-form-group {
+  margin-bottom: 15px;
+}
+
+.eduadding-profile-field-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.eduadding-profile-field-value {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.eduadding-button-row {
+  display: flex;
+  justify-content: flex-end; 
+  margin-top: 15px; 
+}
+
+.eduadding-save-profile-education-button,
+.eduadding-close-education-form-button {
+  background-color: #8c36d8;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.eduadding-save-profile-education-button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+/* Added media query for better responsiveness on smaller screens */
+@media (max-width: 768px) {
+  .eduadding-education-form-container {
+    width: 90%; 
+  }
+
+  .eduadding-button-row {
+    justify-content: space-between; 
+  }
+}

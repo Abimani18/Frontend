@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.Card-forgot {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: -10px 10px 26px rgba(0, 0, 0, 0.1),
+    10px 10px 26px rgba(0, 0, 0, 0.1), 0 10px 26px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border: 1px solid rgb(238, 238, 238);
+  font-weight: 100;
+  font-style: normal;
+  margin: 70px auto;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-forgot {
+  font-size: 15px;
+  font-weight: 200;
+  color: #2c2c2c;
+}
+
+.icon-forgot .img-icon-forgot {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 3px;
+}
+
+.social-icons-forgot {
+  margin-top: 20px;
+  margin-left: 3px;
+  height: 40px;
+  width: 93%;
+  border: 1px solid rgb(231, 231, 231);
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.social-icons-forgot .img-logo-forgot {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}

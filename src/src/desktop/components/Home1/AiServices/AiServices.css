@@ -1,0 +1,30 @@
+/* .service-img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+} */
+
+.ai-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  background: #fff;
+}
+
+.ai-card:hover {
+  transform: translateY(-12px) scale(1.03) rotateX(6deg) rotateY(6deg);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.ai-card img {
+  transition: transform 0.3s ease;
+}
+
+.ai-card:hover img {
+  transform: scale(1.05);
+}
+
+.service-img {
+  width: 100%;
+  object-fit: cover;
+}

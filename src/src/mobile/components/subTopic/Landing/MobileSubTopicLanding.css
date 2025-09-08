@@ -1,0 +1,86 @@
+.mob-subtopic-landing-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mob-subtopic-landing-main {
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  height: auto;
+  background: linear-gradient(rgb(240, 240, 255), rgba(240, 240, 255, 0)),
+    linear-gradient(
+      86.97deg,
+      rgba(255, 218, 185, 0.4) -0.67%,
+      rgba(204, 238, 220, 0.4) 24.91%,
+      rgba(198, 227, 255, 0.4) 48.82%,
+      rgba(225, 216, 255, 0.4) 72.18%,
+      rgba(255, 198, 227, 0.4) 88.31%
+    ),
+    rgb(240, 240, 255);
+}
+
+.mob-subtopic-content-container {
+  padding: 5%;
+  text-align: center;
+}
+
+.mob-subtopic-content-container h1 {
+  color: #8c36d8;
+  font-size: 3em;
+}
+
+.mob-subtopic-landing-praragraph {
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.6;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.mob-subtopic-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #8c36d8;
+  color: #fff;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.mob-subtopic-btn:hover {
+  background-color: #6b258b;
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mob-subtopic-landing-text {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* Media query for screens up to 576px (typical small mobile devices) */
+@media only screen and (max-width: 576px) {
+  .mob-subtopic-landing-main {
+    padding: 10%;
+    margin-top: 10%;
+  }
+
+  .mob-subtopic-content-container h1 {
+    font-size: 2.5em;
+  }
+
+  .mob-subtopic-landing-praragraph {
+    font-size: 0.7em;
+  }
+
+  .mob-subtopic-btn {
+    font-size: 0.8em;
+  }
+}

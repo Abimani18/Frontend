@@ -1,0 +1,89 @@
+/* UserProfileDetails.css */
+
+/* User primary details container */
+.profile-userprimary-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* Form group styles for UserProfileDetails */
+.userprimary-profile-form-group {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* Field name styles for UserProfileDetails */
+.userprimary-profile-field-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Field value styles for UserProfileDetails */
+.userprimary-profile-field-value {
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.userprimary-profile-field-value:hover {
+  border-color: #8c36d8;
+}
+
+.userprimary-profile-field-value:focus {
+  border-color: #8c36d8;
+  outline: none;
+  box-shadow: 0 0 5px rgba(140, 54, 216, 0.5);
+}
+
+/* Advanced styling for the form container */
+.userprimary-profile-userprimary-details {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.userprimary-profile-userprimary-details:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: linear-gradient(45deg, #8c36d8, #27ae60);
+  border-radius: 10px;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .profile-userprimary-details {
+    grid-template-columns: 1fr;
+  }
+
+  .userprimary-profile-field-value {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .userprimary-profile-form-group {
+    margin-bottom: 20px;
+  }
+
+  .userprimary-profile-field-value {
+    padding: 12px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,190 @@
+.pricing-section {
+  text-align: center;
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.accepting {
+  font-size: 14px;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 50px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Grid Layout */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  max-width: 1500px;
+  margin: auto;
+  /* display: flex;
+  justify-content: center;
+  gap: 30px; */
+}
+
+/* Card */
+/* .pricing-card {
+  background: white;
+  border-radius: 24px;
+  padding: 32px;
+  text-align: left;
+  position: relative;
+  transition: transform 0.3s ease;
+} */
+
+.pricing-card:hover {
+  transform: translateY(-6px);
+  
+}
+
+.pricing-card {
+  position: relative;
+  /* border-radius: 16px; */
+  background: #fff;   /* solid background */
+  padding: 50px;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+/* Gradient border effect using ::before */
+.pricing-card::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* full cover */
+  border-radius: 16px;
+  padding: 5px; /* thickness of border */
+  background: linear-gradient(90deg, #7c3aed, #ec4899 ); /* gradient */
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1; /* stay behind card */
+  
+}
+
+/* Show gradient border only on hover */
+.pricing-card:hover::before {
+  opacity: 1;
+}
+
+
+/* Highlighted Card */
+.pricing-card.highlighted {
+  background: linear-gradient(135deg, #faf5ff, #fff0f6);
+  /* border: 1.5px solid #d6b1ff; */
+}
+
+.best-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #7c3aed, #ec4899);
+  color: #fff;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Typography */
+.plan-label {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.plan-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.plan-title span {
+  font-weight: 400;
+  font-style: italic;
+  color: #666;
+}
+
+.plan-desc {
+  font-size: 15px;
+  margin: 8px 0 20px;
+  color: #444;
+}
+
+.price {
+  font-size: 26px;
+  font-weight: 700;
+  /* margin: 20px 0; */
+  color: black;
+}
+
+.price span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Buttons */
+.btn-outline, .btn-filled {
+  display: inline-block;
+  /* padding: 10px 24px; */
+  border-radius: 30px;
+  font-size: 24px;
+  /* font-weight: 600; */
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  border: 1.5px solid #7c3aed;
+  background: transparent;
+  color: #7c3aed;
+}
+
+.btn-outline:hover {
+  background: #7c3aed;
+  color: #fff;
+}
+
+.btn-filled {
+  background: #7c3aed;
+  border: none;
+  color: #fff;
+}
+
+.btn-filled:hover {
+  opacity: 0.9;
+}
+
+/* Features List */
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+.features li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}

@@ -1,0 +1,163 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  overflow-x: hidden;
+  color-scheme: light;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  width: 100vw;
+  background: linear-gradient(90deg, #f6f3ff 0%, #ffffff 100%);
+  position: relative;
+  cursor: none;
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background: #A58CF4;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  
+}
+
+
+
+.skeleton-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.skeleton {
+  margin: 10px 0;
+  height: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+} */
+
+@import "tailwindcss";
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap'); */
+@font-face {
+  font-family: 'iBrand' !important;
+  src: url('../public/font/Ibrand.ttf') format('truetype') !important; 
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+
+
+body {
+  font-family: 'iBrand' !important;
+  width: 100vw;
+  background: linear-gradient(90deg, #f6f3ff 0%, #ffffff 100%);
+  position: relative;
+  cursor: none;
+}
+body span {
+  font-family: sans-serif !important;
+}
+body p{
+  font-family: sans-serif;
+}
+body a{
+  font-family: sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  overflow-x: hidden;
+  color-scheme: light;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background: #A58CF4;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+.skeleton-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.skeleton {
+  margin: 10px 0;
+  height: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
