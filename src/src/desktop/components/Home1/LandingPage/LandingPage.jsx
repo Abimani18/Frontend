@@ -73,24 +73,21 @@ const LandingPage = () => {
                 Get Started <GoArrowUpRight size={20} />
               </Button> */}
               <a href="/get-started" className='get'>
-              <Button className="get-started cta rounded-pill fs-5">
-                <span className="span">Get Started</span>
-                <svg
-                  className="second"
-                  width="30px"
-                  height="30px"
-                  viewBox="0 0 66 43"
-                >
-                  <g id="arrow" fill="none" stroke="white" strokeWidth="3">
-                    <path
-                      className="one"
-                      d="M40.1544 3.5L62.9999 21.5L40.1544 39.5"
-                    />
-                    <path className="two" d="M3 21.5H60" />
-                    <path className="three" d="M3 21.5H60" />
-                  </g>
-                </svg>
-              </Button>
+      <div className='btn-div'>
+      <button className='button'>Get Started</button>
+      <span className="absolute left-36 top-1/2 -translate-y-1/2 w-12 h-12 bg-[#8a2be2] rounded-full">
+      <svg
+            className="h-4 w-5 relative top-4 -right-3 text-amber-50 extension"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          >
+            <path d="M7 17L17 7" />
+            <path d="M8 7h9v9" />
+          </svg>
+      </span>
+      </div>
              </a>
               <Button className="discover  rounded-4 mb-0 ">
                 <button
