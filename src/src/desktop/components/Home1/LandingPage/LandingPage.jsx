@@ -43,7 +43,7 @@ const LandingPage = () => {
                         </video> */}
               {/* <div className="play-btn">
                 <FaCirclePlay />
-              </div> */}
+              </div> change*/}
               <div className="job-btn shadow rounded-pill">
                 <MdNotificationsActive style={{ color: "#ff6200" }} />
                 <button>Job available</button>
